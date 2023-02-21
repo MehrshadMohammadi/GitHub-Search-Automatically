@@ -22,18 +22,23 @@ You should also be aware of GitHub's rate limits for API requests, and ensure th
 ### GO install
 
 ```
-github_search -f SEARCH_TERM -t GITHUB_ACCESS_TOKEN
+go install github.com/MehrshadMohammadi/GitHub-Search-Automatically/main.go@v1.0.0 
+
 ```
  ### Directly through GitHub
  
 ```
-github_search -f SEARCH_TERM -t GITHUB_ACCESS_TOKEN
+git clone https://github.com/MehrshadMohammadi/GitHub-Search-Automatically.git
+cd yourrepository/yourprogram
+go build
+# or
+go install
 ```
 
 ## Usage
 
 ```
-github_search -f FILE_NAME -t GITHUB_ACCESS_TOKEN
+GitHub-Search-Automatically -f FILE_NAME -t GITHUB_ACCESS_TOKEN
 ```
 
 
